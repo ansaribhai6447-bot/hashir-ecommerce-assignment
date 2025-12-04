@@ -1,0 +1,76 @@
+header nav ul a:hover{
+    color: #070101;
+    opacity: 0.85;
+    transition: all 0.3s ease-in-out;
+}
+
+header nav a{
+    position: relative;
+    
+}
+
+header nav ul a::before{
+    transition: all 0.4s ease-in-out;
+    content:"" ;
+    height: 1.9px;
+    background-color: #070101;
+    position: absolute;
+    opacity: 0.85;
+    /* top: 0; */
+    bottom: -1px;
+    /* left: 0; */
+    width: 0;
+}
+
+nav ul a:hover::before {
+    width: 100%;
+}
+
+#atc{
+    transition: all 0.4s ease-in-out;
+    /* visibility: hidden; */
+
+}
+
+.two__subsection1 div{
+    transition: all 0.3s linear;
+}
+
+.two__subsection1 div:hover{
+    background-color: #07010177;
+}
+
+button:hover{
+    outline: 2px solid #DB4444;
+    background-color: white;
+    color: #DB4444;
+    outline-offset: -2px;
+}
+button{transition: all 0.1s linear;}
+
+.icon-circle:hover{
+    transform: translateY(-5px);
+    /* transform: scale(1.01); */
+}
+.icon-circle{
+    transition: all 0.4s ease;
+}
+
+/* 
+three__img:hover+#atc{
+    
+
+
+} */
+
+
+/* .three__img-container:hover+{
+
+
+
+} */
+
+
+
+
+
